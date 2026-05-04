@@ -1,0 +1,74 @@
+EX:1 Date:31/12/25
+Installation and Configuration of Kali Linux in Oracle VirtualBox
+Aim
+To install and configure Kali Linux as a virtual machine using Oracle VirtualBox for
+performing network security and ethical hacking experiments.
+Software Requirements
+● Host Operating System: Windows / Linux / macOS
+● Virtualization Software: Oracle VirtualBox
+● Guest Operating System: Kali Linux
+● System Requirements:
+o RAM: Minimum 4 GB (8 GB recommended)
+o Disk Space: Minimum 30 GB
+o Processor: Intel/AMD with Virtualization support
+Introduction:
+Kali Linux is a Debian-based Linux distribution developed for penetration testing, digital
+forensics, and cybersecurity analysis.
+Installing Kali Linux inside Oracle VirtualBox provides a safe and isolated environment to
+practice security experiments without affecting the host system.
+VirtualBox is an open-source virtualization tool that allows running multiple operating
+systems simultaneously on a single physical machine.
+Procedure
+Step 1: Enable Virtualization
+1. Restart the system and enter BIOS/UEFI settings.
+2. Enable Intel VT-x / AMD-V.
+3. Save changes and reboot the system.
+Step 2: Install Oracle VirtualBox
+1. Download Oracle VirtualBox from the official website.
+2. Run the installer and follow default installation steps.
+3. Complete the installation and restart the system if required.
+Step 3: Download Kali Linux
+1. Visit the official Kali Linux website.
+2. Download the Kali Linux Installer ISO (64-bit).
+Step 4: Create a New Virtual Machine
+1. Open Oracle VirtualBox.
+2. Click New.
+3. Enter:
+o Name: Kali Linux
+o Type: Linux
+o Version: Debian (64-bit)
+4. Click Next.
+Step 5: Allocate Memory and CPU
+● Memory Size: 2048 MB or higher
+● Processor: 2 CPUs
+● Click Next.
+Step 6: Create Virtual Hard Disk
+1. Select Create a virtual hard disk now.
+2. Choose VDI (VirtualBox Disk Image).
+3. Select Dynamically allocated.
+4. Set disk size to 30 GB.
+5. Click Create.
+Step 7: Attach Kali Linux ISO
+1. Select the created VM → Settings.
+2. Go to Storage.
+3. Under Controller IDE, select Empty.
+4. Click Choose a disk file and select Kali Linux ISO.
+5. Click OK.
+Step 8: Install Kali Linux
+1. Start the virtual machine.
+2. Select Graphical Install.
+3. Choose:
+o Language
+o Location
+o Keyboard layout
+4. Configure network automatically.
+5. Set:
+o Username
+o Password
+6. Choose:
+o Guided – Use entire disk
+o All files in one partition
+7. Confirm disk changes and continue installation.
+8. After completion, reboot the system.
+Output:
+Kali Linux is successfully installed.
